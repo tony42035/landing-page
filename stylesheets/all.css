@@ -16830,4 +16830,22 @@ textarea.form-control-lg {
   height: 627px;
   background-size: cover;
   background-position: bottom center;
+}
+
+.deco-line {
+  padding-left: 1rem;
+  position: relative;
+}
+.deco-line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #0dcaf0;
+}
+
+.btn-sepcial.active {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }/*# sourceMappingURL=all.css.map */
